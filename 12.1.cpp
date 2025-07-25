@@ -42,5 +42,6 @@ int main()
 		output << "Component: " << v[i] << ", Resistance: " << v[i + 1] << " Ohms, Power: "
 			<< pow(stod(v[i + 2]),2)/stod(v[i + 1]) << " Watts" << endl;
 	}
+	output.close();
+	file.close();
 }
-
